@@ -1,0 +1,19 @@
+# Start a docblock
+#
+'.source.php':
+  'Docbock Start':
+    'prefix': '/**'
+    'body': """
+      /**
+       * ${1:Description of what this does.}
+       */
+    """
+
+'.source.js':
+  'Docbock Start':
+    'prefix': '/**'
+    'body': """
+      /**
+       * ${1:Description of what this does.}
+       */
+    """
