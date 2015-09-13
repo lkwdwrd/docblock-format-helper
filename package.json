@@ -1,12 +1,12 @@
 {
   "name": "docblock-format-helper",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "main": "./lib/main",
   "description": "Helps format docblocks so that it's less work to write them.",
   "repository": "https://github.com/lkwdwrd/docblock-format-helper",
   "license": "MIT",
   "engines": {
-    "atom": "*"
+    "atom": ">=0.50.0"
   },
   "dependencies": {
     "fs-plus": "2.x",
