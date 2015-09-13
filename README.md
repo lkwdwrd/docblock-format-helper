@@ -1,4 +1,4 @@
-# Dockblock Format Helper package
+# Dockblock Format Helper
 
 Helps format JS and PHP docblocks so that it is less work to write them.
 
@@ -10,7 +10,8 @@ Helps format JS and PHP docblocks so that it is less work to write them.
  */
  ```
 
-When writing a docblock It will automatically when you start a docblock by
-typing '/\*\*'. It will detect you are in a docblock and add the '\*' characters
-for you. And it will know when you hit return after the '\*/' of your docblock
-and remove the extra space from your indentation.
+When you start a docblock by typing '/\*\*' it will fill in the rest of the
+block when you hit enter. It will then detect you are in a docblock and
+automatically add the '\*' characters when you go to a new line. Finally, when
+you are at the end of a docblock and hit return after the '\*/' it will remove
+the extra space from your indentation so you can just continue coding.
