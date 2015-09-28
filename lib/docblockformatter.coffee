@@ -22,7 +22,7 @@ class DocblockFormatter
     editorDestroyedSubscription = editor.onDidDestroy =>
       editorObserveGrammar.dispose()
       editorDestroyedSubscription.dispose()
-      @subscriptions.remote editorObserveGrammar
+      @subscriptions.remove editorObserveGrammar
       @subscriptions.remove editorDestroyedSubscription
 
     @subscriptions.add editorObserveGrammar
